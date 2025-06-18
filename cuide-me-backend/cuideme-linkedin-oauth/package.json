@@ -1,0 +1,14 @@
+{
+  "name": "cuideme-linkedin-oauth",
+  "version": "1.0.0",
+  "main": "callback.js",
+  "scripts": {
+    "start": "node api/auth/linkedin/callback.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.9",
+    "firebase-admin": "^11.10.1",
+    "cors": "^2.8.5"
+  }
+}
