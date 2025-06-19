@@ -13,6 +13,7 @@ export default async function handler(req, res) {
   console.log("🔍 URL gerada:", authorizationUrl); // ← debug
   console.log("📌 clientId:", clientId); // ← debug
   console.log("📌 redirectUri:", redirectUri); // ← debug
+  console.log("URL final de autorização:", authorizationUrl);
 
   return res.redirect(authorizationUrl);
 }
